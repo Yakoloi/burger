@@ -1,0 +1,27 @@
+#burger-image {
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    margin-bottom: 5px;
+}
+
+#eat {
+    display: inline;
+}
+
+li {
+    margin-top: 2px;
+}
+
+h4 {
+    display: inline;
+}
+
+.back {
+    background: yellow;
+}
+
+.red {
+    background: red;
+}
