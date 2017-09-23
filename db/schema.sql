@@ -4,11 +4,8 @@ USE burgers_db;
 
 CREATE TABLE burgers(
   id INTEGER(11) AUTO_INCREMENT NOT NULL,
-  burger_name VARCHAR(20) NOT NULL,
+  burger_name VARCHAR(30),
   devoured BOOLEAN DEFAULT false,
-  date TIMESTAMP,
+  createdAt TIMESTAMP NOT NULL,
   PRIMARY KEY (id)
 );
-
-
-SELECT * FROM burgers;
